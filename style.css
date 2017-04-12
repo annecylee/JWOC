@@ -51,8 +51,6 @@ div,
   background: rgb(217, 217, 217);
   margin-top: -65px;
   border-top: 1px solid #fff;
-  /*margin-left: 0;
-  margin-right: 0;*/
   z-index: 5;
 }
 
@@ -60,7 +58,6 @@ div,
   padding: 10px 20px;
   background: rgb(217, 217, 217);
   background: rgba(217, 217, 217, .9);
-  box-shadow: 3px 3px 7px #999;
   border: none;
   margin: 0;
   z-index: 100;
