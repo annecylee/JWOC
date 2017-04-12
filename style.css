@@ -46,6 +46,14 @@ div,
 
 .navbar-nav {
   display: none;
+  position: relative;
+  background: rgb(217, 217, 217);
+  background: rgb(217, 217, 217);
+  margin-top: -65px;
+  border-top: 1px solid #fff;
+  /*margin-left: 0;
+  margin-right: 0;*/
+  z-index: 5;
 }
 
 .navbar-default {
@@ -70,14 +78,6 @@ div,
   float: right;
   top: -110px;
   font-size: 25px;
-}
-
-.glyphicon:active + .navbar-nav {
-  display: block;
-  background: rgb(217, 217, 217);
-  background: rgba(217, 217, 217, .9);
-  margin-top: -12px;
-  border-top: 1px solid #fff;
 }
 
 .navbar-form {
