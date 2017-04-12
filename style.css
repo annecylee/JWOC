@@ -576,6 +576,7 @@ footer {
     .programs {
       margin: 20px auto;
       max-width: 1163px;
+      margin-bottom: 40px;
     }
 
     .programs section{
