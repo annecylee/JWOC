@@ -1,20 +1,26 @@
 $(function() {
 
-  $(".menu").click(function() {
-    $(".navbar-nav").toggle();
+  var mq = window.matchMedia( "(max-width: 767px)" );
 
-  });
+  if (mq.matches) {
 
-  $(window).click(function(){
-    $(".navbar-nav").hide();
-  });
+    $(".menu").click(function() {
+      $(".navbar-nav").toggle();
 
-  $(window).scroll(function(){
-    $(".navbar-nav").hide();
-  });
+    });
 
-  $('.menu').click(function(event){
-    event.stopPropagation();
-});
+    $(window).click(function(){
+      $(".navbar-nav").hide();
+    });
+
+    $(window).scroll(function(){
+      $(".navbar-nav").hide();
+    });
+
+    $('.menu').click(function(event){
+      event.stopPropagation();
+    });
+
+  };
 
 });
